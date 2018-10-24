@@ -11,7 +11,8 @@ class Song
     if @artist == nil 
       return nil 
     else 
-    @artist.name 
+      @artist.name 
+    end 
   end 
   
   def self.all 
