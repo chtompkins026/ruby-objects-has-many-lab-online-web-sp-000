@@ -10,8 +10,8 @@ class Author
   end
   
   def add_post(post_name)
-    post_name.author = self 
     @posts << post_name 
+    post_name.author = self 
     @@post_count += 1 
   end 
   
