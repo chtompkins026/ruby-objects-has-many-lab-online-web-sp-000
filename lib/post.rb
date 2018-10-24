@@ -5,6 +5,7 @@ class Post
   
   def initialize(title)
     @title = title
+    @@all.push(@title)
   end
 
   def author_name
@@ -14,4 +15,8 @@ class Post
       @author.name
     end
   end
+  
+  def self.all 
+  
+  end 
 end
