@@ -9,7 +9,7 @@ class Author
     @posts = []
   end
   
-  def add_post(post_name)
+  def add_post(post)
     @posts << post_name 
     post_name.author = self 
     @@post_count += 1 
